@@ -1,0 +1,32 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #81C784;
+}
+
+.container {
+  width: 80%;
+  max-width: 600px;
+}
+
+#box {
+  width: 100px;
+  height: 100px;
+  background-color: #d3eaf2;
+  position: relative;
+  margin: 30px auto;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#reaction-time {
+  font-size: 1.5rem;
+  color: #423314;
+}
+
